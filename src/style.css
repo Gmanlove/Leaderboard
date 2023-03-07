@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  border: 3px solid black;
+}
+
+.heading {
+  text-align: center;
+}
+
+.nav-link {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(113, 184, 242);
+  height: 70px;
+  border-top: 2px black solid;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+.main-head {
+  border-top: 2px black solid;
+}
+
+.head-word {
+  font-size: 3rem;
+  padding-left: 20px;
+}
+
+.new {
+  width: 55%;
+}
+
+table {
+  width: 80%;
+  border: 3px black solid;
+}
+
+td {
+  padding-left: 6px;
+  font-size: 1.3rem;
+}
+
+.fa-icon {
+  color: rgb(41, 56, 13);
+}
+
+.adding {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-mark {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+}
+
+.reload {
+  padding: 5px;
+  width: 80px;
+  box-shadow: 3px 3px 3px 3px;
+}
+
+.submit {
+  width: 80px;
+  align-self: flex-end;
+  margin-right: 10px;
+  padding: 5px;
+  box-shadow: 3px 3px 3px 3px;
+}
+
+#link {
+  width: 55%;
+  padding: 10px;
+}
+
+#footer {
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(84, 164, 228);
+  border-top: 2px black solid;
+}
+
+.fa-search {
+  padding: 16px;
+}
+
+table > tbody > tr:nth-of-type(even) {
+  background-color: rgb(210, 220, 229);
+}
+
+.input-mark > input {
+  padding: 7px;
+  width: 110%;
+}
+
+.main-container {
+  display: flex;
+  padding: 20px 50px;
+}
+
+.adding-head {
+  padding-left: 10px;
+}
