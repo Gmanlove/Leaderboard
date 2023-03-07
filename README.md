@@ -1,53 +1,66 @@
-📗 Table of Contents
-📖 About the Project
-🛠 Built With
-Key Features
-🚀 Live Demo
-💻 Getting Started
-Setup
-Prerequisites
-Install
-Usage
-Run tests
-Deployment
-👥 Authors
-🔭 Future Features
-🤝 Contributing
-⭐️ Show your support
-🙏 Acknowledgements
-❓ FAQ (OPTIONAL)
-📝 License
-📖 Leaderboard
+  <h3><b>Leaderboard</b></h3>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+
+# 📖 [leaderboard] <a name="about-project"></a>
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score.
 
-🛠 Built With
+## 🛠 Built With <a name="built-with"></a>
 HTML(HTML-5).
 CSS(Flexbox).
 javaScript (ES6, ES6-Modules).
+
+### Key Features <a name="key-features"></a>
+
 ★ webpack.
 Gitflow.
 Linters.
-Key Features
-In this project:
-Add items dynamically to the UI
-Use NPM.
-Use webpack.
-Use webpack-cli.
-Use css-loader.
-Use style-loader.
-Modify webpack.config.js
-use HtmlWebpackPlugin.
-Setup local dev server
-Add Linters for HTML/CSS.
-
-(back to top)
 
 
-💻 Getting Started
+## 💻 Getting Started <a name="getting-started"></a>
+
 To get a local copy up and running, follow these steps. 
-1 - clone Repo. git@github.com:Gmanlove/Leaderboard.git
+1  clone Repo. git@github.com:Gmanlove/Leaderboard.git
 
-2- Install npm (node pakage manager) you can run any one of these commands to install npm on your machine:
+2 Install npm (node pakage manager) you can run any one of these commands to install npm on your machine:
+
+
+
+### Prerequisites
+
+In order to run this project you need:
+A computer
+Access to Internet Connection
+
+### Setup
+
+Clone this repository to your desired folder:
+git@github.com:Gmanlove/Leaderboard.git
+
+### Install
+
+Install this project with:
 
 npm i
 
@@ -61,38 +74,47 @@ npm i -g
 
 sudo apt install -g npm
 
-(back to top)
 
-👥 Authors
-👤 Author
 
-GitHub: @Gmanlove
-(back to top)
+## 👥 Authors <a name="authors"></a>
 
-🔭 Future Features
- Use Leaderboard API
-(back to top)
+👤 **Author1**
 
-🤝 Contributing
+- GitHub: [@Gmanlove](https://github.com/Gmanlove)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] Use Leaderboard API
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
 
-(back to top)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-⭐️ Show your support
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-(back to top)
+ Give a ⭐️ if you like this project!
 
-🙏 Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
 I would like to thank all Microverse community.
 
-(back to top)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-(back to top)
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
