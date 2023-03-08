@@ -6,9 +6,8 @@ body {
   margin-left: 2px;
   margin-right: 2px;
   padding: 0;
-  position: relative;
   height: 100vh;
-  border: 3px solid black;
+  border-top: 3px solid black;
 }
 
 .heading {
@@ -96,8 +95,6 @@ td {
 
 #footer {
   height: 30px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   background-color: rgb(84, 164, 228);
   border-top: 2px black solid;
