@@ -6,12 +6,14 @@ body {
   margin-left: 2px;
   margin-right: 2px;
   padding: 0;
-  height: 100vh;
-  border-top: 3px solid black;
+  height: 100%;
+  font-family: cursive;
+  background-image: -webkit-linear-gradient(65deg, #3bd6c9 40%, #46dd39 60%);
 }
 
 .heading {
   text-align: center;
+  color: #f31f2d;
 }
 
 .nav-link {
@@ -40,6 +42,7 @@ li {
 .head-word {
   font-size: 3rem;
   padding-left: 20px;
+  color: rgb(6, 18, 14);
 }
 
 .new {
@@ -78,6 +81,7 @@ td {
   padding: 5px;
   width: 80px;
   box-shadow: 3px 3px 3px 3px;
+  background-color: rgba(238, 19, 194, 0.876);
 }
 
 .submit {
@@ -86,11 +90,22 @@ td {
   margin-right: 10px;
   padding: 5px;
   box-shadow: 3px 3px 3px 3px;
+  background-color: rgb(219, 9, 174);
 }
 
 #link {
   width: 55%;
   padding: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  border-radius: 35%;
+  background-color: rgb(70, 23, 239);
 }
 
 #footer {
@@ -100,12 +115,30 @@ td {
   border-top: 2px black solid;
 }
 
+#add-name {
+  border-radius: 10%;
+  border-color: rgb(145, 24, 197);
+}
+
+input {
+  color: rgb(149, 27, 27);
+}
+
+#add-score {
+  border-radius: 10%;
+  border-color: rgb(145, 24, 197);
+}
+
 .fa-search {
   padding: 16px;
 }
 
 table > tbody > tr:nth-of-type(even) {
-  background-color: rgb(210, 220, 229);
+  background-color: rgb(90, 246, 78);
+}
+
+table > tbody > tr:nth-of-type(odd) {
+  background-color: rgb(0, 221, 255);
 }
 
 .input-mark > input {
@@ -120,4 +153,8 @@ table > tbody > tr:nth-of-type(even) {
 
 .adding-head {
   padding-left: 10px;
+}
+
+header {
+  background-color: rgb(8, 153, 117);
 }
